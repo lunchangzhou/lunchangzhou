@@ -55,8 +55,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Java面向对象高级特性详解](https://blog.csdn.net/m0_74087660/article/details/156834053)
+- [Java房屋租赁系统实战教程](https://blog.csdn.net/m0_74087660/article/details/156833844)
 - [面向对象编程（中级）](https://blog.csdn.net/m0_74087660/article/details/156168678)
-- [Java类与对象关系详解](https://blog.csdn.net/m0_74087660/article/details/156168264)
-- [数组拷贝与反转实战技巧](https://blog.csdn.net/m0_74087660/article/details/155948085)
 <!-- BLOG-POST-LIST:END -->
 
