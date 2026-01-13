@@ -55,8 +55,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Java异常处理最佳实践指南](https://blog.csdn.net/m0_74087660/article/details/156872493)
+- [枚举与注解：提升代码可读性与维护性](https://blog.csdn.net/m0_74087660/article/details/156872300)
 - [Java面向对象高级特性详解](https://blog.csdn.net/m0_74087660/article/details/156834053)
-- [Java房屋租赁系统实战教程](https://blog.csdn.net/m0_74087660/article/details/156833844)
-- [面向对象编程（中级）](https://blog.csdn.net/m0_74087660/article/details/156168678)
 <!-- BLOG-POST-LIST:END -->
 
