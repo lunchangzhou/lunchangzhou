@@ -55,8 +55,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Java集合框架体系全解析](https://blog.csdn.net/m0_74087660/article/details/156909887)
+- [Java 常用类](https://blog.csdn.net/m0_74087660/article/details/156909783)
 - [Java异常处理最佳实践指南](https://blog.csdn.net/m0_74087660/article/details/156872493)
-- [枚举与注解：提升代码可读性与维护性](https://blog.csdn.net/m0_74087660/article/details/156872300)
-- [Java面向对象高级特性详解](https://blog.csdn.net/m0_74087660/article/details/156834053)
 <!-- BLOG-POST-LIST:END -->
 
