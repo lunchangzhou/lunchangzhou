@@ -55,8 +55,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [实战教学：坦克大战1.0版本完整实现](https://blog.csdn.net/m0_74087660/article/details/156949788)
+- [Java泛型详解：提升代码安全与效率](https://blog.csdn.net/m0_74087660/article/details/156949629)
 - [Java集合框架体系全解析](https://blog.csdn.net/m0_74087660/article/details/156909887)
-- [Java 常用类](https://blog.csdn.net/m0_74087660/article/details/156909783)
-- [Java异常处理最佳实践指南](https://blog.csdn.net/m0_74087660/article/details/156872493)
 <!-- BLOG-POST-LIST:END -->
 
