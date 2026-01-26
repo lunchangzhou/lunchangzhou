@@ -55,8 +55,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [坦克大战3.0：防重叠运动实现详解](https://blog.csdn.net/m0_74087660/article/details/157362291)
 - [Java多线程实战：坦克大战子弹发射](https://blog.csdn.net/m0_74087660/article/details/157100881)
 - [Java多线程入门：创建与结束线程](https://blog.csdn.net/m0_74087660/article/details/157100838)
-- [实战教学：坦克大战1.0版本完整实现](https://blog.csdn.net/m0_74087660/article/details/156949788)
 <!-- BLOG-POST-LIST:END -->
 
