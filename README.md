@@ -47,8 +47,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Vue3应用规模化实战](https://blog.csdn.net/m0_74087660/article/details/164020185)
 - [Vue3进阶入门指南](https://blog.csdn.net/m0_74087660/article/details/162302620)
 - [Vue3 基础语法一篇讲透](https://blog.csdn.net/m0_74087660/article/details/162268562)
-- [坦克大战3.0：防重叠运动实现详解](https://blog.csdn.net/m0_74087660/article/details/157362291)
 <!-- BLOG-POST-LIST:END -->
 
