@@ -47,8 +47,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot 整合 ES 索引 API](https://blog.csdn.net/m0_74087660/article/details/164116143)
+- [Docker 搭建 Elasticsearch 三节点集群](https://blog.csdn.net/m0_74087660/article/details/164085431)
 - [Vue3应用规模化实战](https://blog.csdn.net/m0_74087660/article/details/164020185)
-- [Vue3进阶入门指南](https://blog.csdn.net/m0_74087660/article/details/162302620)
-- [Vue3 基础语法一篇讲透](https://blog.csdn.net/m0_74087660/article/details/162268562)
 <!-- BLOG-POST-LIST:END -->
 
