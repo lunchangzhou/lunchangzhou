@@ -47,8 +47,8 @@
 
 ## 📝 最新博客文章
 <!-- BLOG-POST-LIST:START -->
+- [Spring Boot 掌握 Elasticsearch Search API](https://blog.csdn.net/m0_74087660/article/details/164144510)
+- [Spring Boot 操作 ES 文档 CRUD](https://blog.csdn.net/m0_74087660/article/details/164144492)
 - [Spring Boot 整合 ES 索引 API](https://blog.csdn.net/m0_74087660/article/details/164116143)
-- [Docker 搭建 Elasticsearch 三节点集群](https://blog.csdn.net/m0_74087660/article/details/164085431)
-- [Vue3应用规模化实战](https://blog.csdn.net/m0_74087660/article/details/164020185)
 <!-- BLOG-POST-LIST:END -->
 
