@@ -44,8 +44,6 @@ AI 应用开发、AI Agent 应用开发、Java 后端开发岗位。
 - 实现支持 Human-in-the-Loop 的分层 Agent，加入步骤上限、状态管理和死循环检测。
 - 使用 SseEmitter + CompletableFuture 输出流式推理和工具执行过程。
 
-> 这是用于展示 AI Agent 核心能力的实践项目。代码与演示链接会随着整理进度持续补充。
-
 ### AI 零代码应用生成平台
 
 - [GitHub 仓库](https://github.com/lunchangzhou/ai-code-generator)
