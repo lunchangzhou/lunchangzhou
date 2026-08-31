@@ -1,54 +1,111 @@
-# 论昌周
+# 论昌周 · AI 应用开发工程师
 
-**天津师范大学 · 软件工程 · 2026届本科**
+> Java 后端开发工程师，专注于 AI Agent、RAG、Tool Calling、MCP 与可落地的 AI 产品。
 
-📧 `lunchangzhou@qq.com` | 📄 **简历直达**：[在线简历](https://laoyujianli.com/share/QR2erj) | 📖 **技术博客**：[CSDN](https://blog.csdn.net/m0_74087660)
+我擅长把一个想法拆成可运行的产品：从需求分析、后端架构和模型接入，到前端交互、数据存储、部署与问题排查，持续关注系统的可维护性、稳定性和真实使用体验。
 
----
+## 我正在寻找
 
-## 🎯 技术聚焦
+AI 应用开发、AI Agent 应用开发、Java 后端开发岗位。
 
-**后端核心：**
-- 熟悉 Java 基础，掌握集合源码、并发编程（锁 / 线程池）及 JVM 内存模型与 GC 原理。
-- 熟练掌握 SpringBoot + MyBatis-PLUS 框架，能利用 Hutool、Lombok 等工具提升开发效率，了解 Spring IOC / AOP 底层原理。
-- 熟悉 MySQL，具备 SQL 调优经验，理解索引、事务、MVCC 及锁机制。
-- 熟悉 Redis，有分布式缓存、分布式 Session、分布式锁（Redisson）的实际落地经验。
-- 熟悉 RabbitMQ 消息队列，实践过手动确认、消息持久化等可靠性投递机制。
-- 熟悉 HTTP / TCP 协议，理解操作系统进程线程与 IO 模型，能辅助排查线上问题。
+希望参与将大模型能力接入真实业务的团队，重点关注：
 
-**扩展技能：**
-- 具备 Python 爬虫开发经验
+- Agent 工作流与工具调用
+- RAG 知识库与检索增强
+- AI 应用的会话、权限、限流和成本控制
+- Java 后端服务、数据一致性与可观测性
 
----
+## 技术方向
 
-## 🚀 项目经历
+| 方向 | 实践内容 |
+| --- | --- |
+| AI 应用 | Spring AI、LangChain4j、Prompt、Chat Memory、Tool Calling、MCP、Multi-Agent |
+| 检索增强 | 文档 ETL、向量化、PGvector、查询扩展、查询重写、元信息标注 |
+| Java 后端 | Spring Boot 3、MyBatis-Plus、Spring Cloud、Dubbo、SSE、异步任务 |
+| 数据与基础设施 | MySQL、Redis、Caffeine、Elasticsearch、COS、Docker、Nginx |
+| 工程实践 | 设计模式、接口抽象、限流、分布式锁、索引优化、日志检索、监控告警 |
+| 全栈交付 | Vue 3、React、FastAPI、Express、Serverless 部署 |
 
-### 1. 优搭校园
-- 使用 Redis 实现分布式 Session，解决集群间登录态同步问题；并使用 Hash 代替 String 来存储用户信息，节约了 35% 的内存并便于单字段的修改。
-- 为解决首次访问系统的用户主页加载过慢的问题，使用 Spring Scheduler 定时任务来实现缓存预热，并通过分布式锁保证多机部署时定时任务不会重复执行。
-- 为解决同一用户重复加入队伍、入队人数超限的问题，使用 Redisson 分布式锁来实现操作互斥，保证了接口幂等性。
-- 使用编辑距离算法实现了根据标签匹配最相似用户的功能，并通过优先队列来减少 TOPN 运算过程中的内存占用。
+## 代表项目
 
-### 2. AI 零代码应用生成平台
-**GitHub 链接：** https://github.com/lunchangzhou/ai-code-generator
+### AI 超级智能体
 
-**项目介绍**：基于 Spring Boot3 + LangChain4j 的 AI 零代码应用生成平台。用户输入自然语言描述，由 AI Agent 自动执行一套完整工作流，最终一键部署为可访问的 Web 应用。
+- GitHub 仓库：`待补充`
+- 在线演示：`待补充`
 
-**负责工作**：
-- 利用 LangChain4j 框架集成 DeepSeek、通义等多种 AI 大模型，通过声明式的 AI Service 编程模型快速实现模型调用和网站生成。
-- 项目实现了原生、Vue 工程等多种网站生成模式，综合运用门面模式统一 AI 调用入口、策略模式与模板方法模式处理各类代码解析和保存逻辑，提升代码的可扩展性。
-- 整合 Redis 和 LangChain4j 实现 AI 对话历史的持久化存储，支持通过多轮对话来优化生成的网站，并通过 AI Service + Caffeine 实现了多用户会话的隔离。
-- 基于时间游标实现分页对话历史查询，避免传统的深分页性能问题，并通过建立复合索引进一步优化了查询性能 3 倍。
-- 基于 COS 对象存储 SDK 封装了通用文件上传服务，将应用封面图上云持久化存储，并通过定时任务清理过期资源，节约成本。
-- 开发了文件读、写、修改、删除、目录读取等文件操作工具，拓宽 AI 能力边界，并通过安全校验防止 AI 误操作导致应用损坏。
-- 基于 Redisson 的 RRateLimiter 和 Spring AOP，通过自定义注解实现了用户 / IP / 接口级的令牌桶限流，保障 AI 接口的稳定性和成本可控。
-  
----
+一个基于 Spring Boot 3 + Spring AI 的企业级 AI Agent 应用，支持多轮对话、持久化记忆、RAG 知识库、工具调用、MCP 服务和 SSE 流式输出。
 
-## 📝 最新博客文章
-<!-- BLOG-POST-LIST:START -->
-- [Spring Boot 掌握 Elasticsearch Search API](https://blog.csdn.net/m0_74087660/article/details/164144510)
-- [Spring Boot 操作 ES 文档 CRUD](https://blog.csdn.net/m0_74087660/article/details/164144492)
-- [Spring Boot 整合 ES 索引 API](https://blog.csdn.net/m0_74087660/article/details/164116143)
-<!-- BLOG-POST-LIST:END -->
+核心实践：
 
+- 统一接入通义、Ollama 等多种模型，保留模型切换和本地部署能力。
+- 基于 ChatMemory、Advisor 和 MySQL + Redis 实现会话记忆持久化。
+- 完成文档 ETL、PGvector 向量检索、元信息标注、多查询扩展和查询重写。
+- 集成联网搜索、网页抓取、PDF 生成、资源下载等工具，并加入参数校验和用户上下文传递。
+- 实现支持 Human-in-the-Loop 的分层 Agent，加入步骤上限、状态管理和死循环检测。
+- 使用 SseEmitter + CompletableFuture 输出流式推理和工具执行过程。
+
+> 这是用于展示 AI Agent 核心能力的实践项目。代码与演示链接会随着整理进度持续补充。
+
+### AI 零代码应用生成平台
+
+- [GitHub 仓库](https://github.com/lunchangzhou/ai-code-generator)
+- 在线演示：`待补充`
+
+基于 Spring Boot 3 + LangChain4j 的 AI 应用生成平台。用户用自然语言描述需求，由 Agent 执行代码生成、解析、保存和部署流程，最终得到可访问的 Web 应用。
+
+我重点实践了：
+
+- 通过声明式 AI Service 接入 DeepSeek、通义等模型。
+- 用门面、策略和模板方法组织不同应用生成模式，降低扩展成本。
+- 使用 Redis 持久化对话历史，并通过 Caffeine 做多用户会话隔离。
+- 使用时间游标分页查询历史消息，配合复合索引改善深分页查询。
+- 封装 COS 文件上传与过期资源清理能力。
+- 提供文件读写、修改、删除和目录读取工具，并增加路径与操作安全校验。
+- 基于 Redisson RRateLimiter + Spring AOP 实现用户、IP、接口级令牌桶限流。
+
+### AI 热点监控工具
+
+- [GitHub 仓库](https://github.com/lunchangzhou/hot-monitor)
+- 在线演示：`待补充`
+
+基于 Express 5、React 19 和 OpenRouter 的 AI 热点监控工具，聚合多个信息源，利用模型进行内容审核、真假识别和相关性分析。
+
+- 技术栈：Node.js、Express、React、TypeScript、Prisma、SQLite、Axios、Cheerio、node-cron
+- 关注点：多源采集、定时任务、AI 分析、数据持久化和前端信息呈现
+
+### AI 视频下载与内容总结工具
+
+- [GitHub 仓库](https://github.com/lunchangzhou/video-downloader)
+- 在线演示：`待补充`
+
+基于 Vue 3、FastAPI、yt-dlp 和 DeepSeek 的内容处理工具，支持视频下载、AI 总结和 Stripe 国际支付接入。
+
+- 技术栈：Vue 3、FastAPI、Python、yt-dlp、DeepSeek、Stripe
+- 关注点：跨技术栈协作、异步任务、内容处理和产品化交付
+
+## 业务系统经验
+
+在继续教育平台财务系统中，我参与并负责过支付、订单、导出和日志可观测相关工作：
+
+- 使用策略模式与工厂模式抽象微信、支付宝和商业银行支付差异。
+- 重构重修费订单同步模型，围绕订单状态和审核记录维护账务一致性。
+- 针对 50 万级数据导出，实践索引设计、分批查询和流式写入。
+- 基于 Elasticsearch + Kibana 统一关键业务日志，支持按订单检索和异常追踪。
+
+这些经验让我更关注 AI 应用落地时同样重要的工程问题：状态是否可追踪、失败是否可恢复、成本是否可控制、结果是否方便验证。
+
+## 我的工作方式
+
+- 先明确需求边界，再拆解任务和验收标准。
+- 优先阅读官方文档和源码，记录关键设计决策。
+- 用小步提交和可复现步骤降低排查成本。
+- 借助 Cursor、Codex、GitHub Copilot 等工具提高效率，但保留人工审核和测试验证。
+- 关注从模型调用到数据库、任务和前端的完整链路，而不只追求 Demo 能运行。
+
+## 更多信息
+
+- 作品集 / 个人站点：[lunchangzhou.com](https://lunchangzhou.com)
+- 技术博客：[CSDN](https://blog.csdn.net/m0_74087660)
+- 邮箱：`lunchangzhou@qq.com`
+
+如果你正在做 AI Agent、企业 AI 应用或 Java 后端系统，欢迎交流。
